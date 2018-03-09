@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<GridPane alignment="center" hgap="10" vgap="10" xmlns:fx="http://javafx.com/fxml/1"
+          xmlns="http://javafx.com/javafx/8.0.121">
+    <columnConstraints>
+        <ColumnConstraints/>
+    </columnConstraints>
+    <rowConstraints>
+        <RowConstraints/>
+    </rowConstraints>
+    <children>
+        <VBox prefHeight="400.0" prefWidth="600.0" spacing="10.0">
+            <children>
+                <Pane prefHeight="250.0" prefWidth="600.0" id="out_pane"/>
+                <HBox prefHeight="150.0" prefWidth="600.0">
+                    <children>
+                        <VBox prefHeight="150.0" prefWidth="300.0" spacing="20.0">
+                            <children>
+                                <HBox spacing="5.0">
+                                    <children>
+                                        <Label>Red :</Label>
+                                        <Slider layoutY="10.0" prefWidth="200" id="red" max="255" />
+                                    </children>
+                                </HBox>
+                                <HBox spacing="5.0">
+                                    <children>
+                                        <Label>Green :</Label>
+                                        <Slider layoutX="10.0" layoutY="10.0" prefWidth="200" id="green" max="255"/>
+                                    </children>
+                                </HBox>
+                                <HBox spacing="5.0">
+                                    <children>
+                                        <Label>Blue :</Label>
+                                        <Slider layoutX="150.0" layoutY="10.0" prefWidth="200" id="blue"  max="255"/>
+                                    </children>
+                                </HBox>
+
+
+                            </children>
+                        </VBox>
+
+                        <TextField id="hexa_out"/>
+                    </children>
+                </HBox>
+            </children>
+        </VBox>
+    </children>
+</GridPane>
