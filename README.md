@@ -1,4 +1,5 @@
 # color-switcher
 A simple JavaFx application to switch color by choosing red, gree, blue
 
-![alt text](https://raw.githubusercontent.com/yonajeh/color-switcher/demo.png)
+![demo of applicatin color switcher](https://ibb.co/f7dO57)
+
